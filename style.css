@@ -19,7 +19,7 @@ body{
     font-size: 20px;
 }
 .user-name input{
-    width: 500px;
+    width: 250px;
     padding: 5px;
     padding-left: 20px;
     font-size: 25px;
@@ -34,10 +34,15 @@ body{
     border-image: linear-gradient(to right, #e96443, #904e95);
     border-image-slice: 1;
     border-radius: 5px; 
-    color:#364D5C; 
+    color:#364D5C;
+    transition: width 1s;
+    transition-delay: 0.3s;
+}
+.user-name input:hover{
+    width: 500px;
 }
 .password input{
-    width: 500px;
+    width: 250px;
     padding: 5px;
     padding-left: 20px;
     font-size: 25px;
@@ -53,7 +58,12 @@ body{
     border-image-slice: 1;
     border-radius: 5px; 
     color:#364D5C; 
+    transition: width 1s;
+    transition-delay: 0.3s;
 
+}
+.password input:hover{
+    width: 500px;
 }
 
 .forgot a{
@@ -79,11 +89,12 @@ body{
     background:linear-gradient(to left,#eecda3 , #ef629f);
     font-size: 20px;
     font-weight: 600;
+
 }
+
 .login-button:hover{
     background:linear-gradient(to right,#eecda3 , #ef629f);
-    cursor: pointer;
-    
+    cursor: pointer;     
 }
 .second-div{
     margin-top: 20px;
@@ -98,6 +109,7 @@ body{
 }
 .second-div img:hover{
     cursor: pointer;
+    transform: scale(1.5);
     
 }
 .third-div{
@@ -111,4 +123,5 @@ body{
 }
 .third-div a:hover{
     color:#EF6E9F;
+    
 }
