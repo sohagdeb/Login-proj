@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-image: url(images/pexels-lumn-399161.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    background-size: 100%;
+}
+.login h1{
+    margin-left: 38%;
+    margin-top: 2%;
+}
+.first-div{
+    margin-left: 25%;
+    
+}
+.first-div span{
+    font-size: 20px;
+}
+.user-name input{
+    width: 500px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    background: unset;
+    margin-top: 10px;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, #e96443, #904e95);
+    border-image-slice: 1;
+    border-radius: 5px; 
+    color:#364D5C; 
+}
+.password input{
+    width: 500px;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 25px;
+    background: unset;
+    margin-top: 10px;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, #e96443, #904e95);
+    border-image-slice: 1;
+    border-radius: 5px; 
+    color:#364D5C; 
+
+}
+
+.forgot a{
+    margin-left: 34%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.forgot a:hover{
+    color: #0F496A;
+}
+.login-button{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:hidden;
+    margin-left: 13%;
+    margin-top: 5%;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background:linear-gradient(to left,#eecda3 , #ef629f);
+    font-size: 20px;
+    font-weight: 600;
+}
+.login-button:hover{
+    background:linear-gradient(to right,#eecda3 , #ef629f);
+    cursor: pointer;
+    
+}
+.second-div{
+    margin-top: 20px;
+    margin-left: 37%;
+}
+.social-site img{
+    width: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    
+    
+}
+.second-div img:hover{
+    cursor: pointer;
+    
+}
+.third-div{
+    margin-left: 37%;
+}
+.third-div a{
+    text-decoration: none;
+    font-size: 20px;
+    color:red;
+    margin-left: 3%;
+}
+.third-div a:hover{
+    color:#EF6E9F;
+}

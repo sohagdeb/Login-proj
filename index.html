@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins&display=swap" rel="stylesheet">
+
     <title>Login</title>
 </head>
 <body>
+    <div class="login">
+        <h1>Login</h1>
+    </div>
+    
+    <div class="first-div">
+        
+        <span>User Name</span><br>
+        <div class="user-name" data-validate="Username is reauired">
+        <input type="text" name="username"placeholder="Type your username">
+        </div>
+        <br><br>
+        <span>Password</span>
+        
+        <div class="password" data-validate="Password is reauired">
+            <input type="password" name="password" placeholder="Type your password">
+            
+        </div>
+
+        <div class="forgot">
+            
+            <a href="#">forgot password?</a>
+        </div>
+        <button class="login-button">Login</button> 
+    </div>
+    <div class="second-div">
+        <span>Or Sign Up Using</span>
+        <div class="social-site">
+            <a href="https://www.facebook.com/"target="-blank"> <img src="images/facebook.png" alt=""> </a>
+            <a href="https://www.twitter.com/"target="-blank"><img src="images/twitter.png" alt=""></a>
+            <a href="https://www.google.com/"target="-blank"><img src="images/google.png" alt=""></a>
+        </div>
+    </div>
+    <br>
+    <div class="third-div">
+        <span>Or Sign Up Using</span><br>
+        <a href="#">SIGN UP</a>
+    </div>
+
     
 </body>
 </html>
